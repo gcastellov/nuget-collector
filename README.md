@@ -1,19 +1,19 @@
 # nuget-collector
 SPA to collect information about nuget references being used by multiple GIT repositories. Usually helpful for microservice oriented applications. 
 
-![Landing page](docs/main.png)
+![Landing page](docs/main.PNG)
 This view shows the different repositories used for the analysis.
 
-![Reference stats](docs/stats.png)
+![Reference stats](docs/stats.PNG)
 This view shows some reference stats.
 
-![By project](docs/by-project.png)
+![By project](docs/by-project.PNG)
 This view shows all projects found which nuget references.
 
-![By reference](docs/by-reference.png)
+![By reference](docs/by-reference.PNG)
 This view shows all references being used at different projects.
 
-![By version](docs/by-version.png)
+![By version](docs/by-version.PNG)
 This view shows all references grouped by version being used at different projects. Helpful to consolidate references.
 
 
