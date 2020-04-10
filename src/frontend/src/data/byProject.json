@@ -1,0 +1,5157 @@
+[
+	{
+		"Name": "Roche.TALL.TMS.Backup.Application.Stimulator.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.Application.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Bootstrapper",
+				"Version": "0.1.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.Contracts.csproj",
+		"References": [
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.Domain.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.4"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "11.0.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Configuration",
+				"Version": "0.2.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.7"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.SystemControl.Contracts",
+				"Version": "0.1.5"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.Security.Cryptography.Pkcs",
+				"Version": "4.5.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.Services.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ComitAdapters.Contracts",
+				"Version": "0.1.7"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.4"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.Services.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Backup.UnitIntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Application.Stimulator.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Application.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Contracts.csproj",
+		"References": [
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.DataAccess.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Domain.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.LogEventDefinitions.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Services.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.DataAccess.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Domain.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.Services.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComitAdapters.UnitIntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector.csproj",
+		"References": [
+			{
+				"Name": "MassTransit.SimpleInjector",
+				"Version": "5.3.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.MassTransit.Extensions.Unity.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.Unity.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.0.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Contracts.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.Unity.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.csproj",
+		"References": [
+			{
+				"Name": "EventStore.ClientAPI.NetCore",
+				"Version": "4.1.0.23"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "10.0.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Logging.csproj",
+		"References": [
+			{
+				"Name": "log4net",
+				"Version": "2.0.8"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.CodeQuality.Analyzers",
+				"Version": "2.6.3"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Abstractions",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "Microsoft.NetCore.Analyzers",
+				"Version": "2.6.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Text.Analyzers",
+				"Version": "2.6.3"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.UI.Launcher.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.UI.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Bootstrapper.csproj",
+		"References": [
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Configuration.csproj",
+		"References": [
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "10.0.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Extensions.SimpleInjector.csproj",
+		"References": [
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Extensions.Unity.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.IO.Extensions.Unity.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.IO.csproj",
+		"References": [
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Validation.csproj",
+		"References": [
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "12.0.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.MassTransit.Extensions.SimpleInjector.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.MassTransit.Extensions.Unity.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.MassTransit.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.Unity.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.DevIntegration.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.Unity.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.EventStore.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Logging.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.UI.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Bootstrapper.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Configuration.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.IO.Extensions.Unity.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.IO.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Common.Validation.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Tests.Components.csproj",
+		"References": []
+	},
+	{
+		"Name": "Simulate.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ComponentTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UCTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.Application.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "NJsonSchema",
+				"Version": "9.13.36"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.DataAccess.MigrationStartup.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.EntityFrameworkCore.Design",
+				"Version": "2.1.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.EntityFrameworkCore",
+				"Version": "2.1.2"
+			},
+			{
+				"Name": "Microsoft.EntityFrameworkCore.Design",
+				"Version": "2.1.2"
+			},
+			{
+				"Name": "Microsoft.EntityFrameworkCore.Sqlite",
+				"Version": "2.1.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CSharp",
+				"Version": "4.5.0"
+			},
+			{
+				"Name": "MyToolkit",
+				"Version": "2.5.16"
+			},
+			{
+				"Name": "Newtonsoft.Json.Schema",
+				"Version": "3.0.10"
+			},
+			{
+				"Name": "NJsonSchema",
+				"Version": "9.13.36"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Configuration",
+				"Version": "0.2.3"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Unity",
+				"Version": "4.0.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.LabLayoutConfig.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.Services.csproj",
+		"References": [
+			{
+				"Name": "AutoMapper",
+				"Version": "6.1.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.ApiContracts",
+				"Version": "0.8.0.42754"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.Domain.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.AutomationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.Services.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.Tests.Tools.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UI.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+		"References": [
+			{
+				"Name": "AutoMapper",
+				"Version": "6.1.1"
+			},
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.AspNetCore",
+				"Version": "2.1.4"
+			},
+			{
+				"Name": "Microsoft.AspNetCore.Hosting.WindowsServices",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.AspNetCore.Mvc",
+				"Version": "2.1.3"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ComitAdapters.Contracts",
+				"Version": "0.3.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Bootstrapper",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.19"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.3"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.12"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.11"
+			},
+			{
+				"Name": "Serilog",
+				"Version": "2.9.0"
+			},
+			{
+				"Name": "Serilog.AspNetCore",
+				"Version": "3.2.0"
+			},
+			{
+				"Name": "Serilog.Enrichers.Thread",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Serilog.Sinks.Console",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Serilog.Sinks.File",
+				"Version": "4.1.0"
+			},
+			{
+				"Name": "Serilog.Sinks.SyslogServer",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "SimpleInjector.Integration.AspNetCore.Mvc",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.ApiContracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "11.0.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.3"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.3"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Extensions.SimpleInjector",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.BusinessLogic.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "Newtonsoft.Json.Schema",
+				"Version": "3.0.10"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.LabLayoutConfig.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.5.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.Services.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ComitAdapters.Contracts",
+				"Version": "0.3.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.19"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Extensions.SimpleInjector",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.3.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.3.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging",
+				"Version": "0.1.1"
+			},
+			{
+				"Name": "Roche.TestDocGen.Converter.Attributes",
+				"Version": "1.0.1.35"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.0.12"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.ConfigurationManager.UnitIntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.5.1"
+			},
+			{
+				"Name": "Google.Protobuf.Tools",
+				"Version": "3.5.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.2"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.1.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Polly",
+				"Version": "7.1.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.Logging.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Serilog",
+				"Version": "2.9.0"
+			},
+			{
+				"Name": "Serilog.Enrichers.Thread",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Serilog.Sinks.Console",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Serilog.Sinks.File",
+				"Version": "4.1.0"
+			},
+			{
+				"Name": "Serilog.Sinks.SyslogMessages",
+				"Version": "1.0.5"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.Extensions.DependencyInjection",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.SerilogIntegration",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MediatR",
+				"Version": "8.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.MassTransit.Serialization",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.14"
+			},
+			{
+				"Name": "Serilog.Enrichers.MassTransit",
+				"Version": "1.1.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.MongoDb.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.1.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.AntiCorruptionLayer.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.6.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.8"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.ApplicationServices.csproj",
+		"References": [
+			{
+				"Name": "MediatR",
+				"Version": "8.0.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.14"
+			},
+			{
+				"Name": "System.Text.Json",
+				"Version": "4.7.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.Domain.csproj",
+		"References": [
+			{
+				"Name": "MediatR",
+				"Version": "8.0.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.csproj",
+		"References": [
+			{
+				"Name": "MediatR.Extensions.Microsoft.DependencyInjection",
+				"Version": "8.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Json",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting.Systemd",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting.WindowsServices",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Serilog.Extensions.Hosting",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.TestUtils.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.Domain.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.2.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.0"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.0"
+			},
+			{
+				"Name": "coverlet.collector",
+				"Version": "1.0.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+		"References": [
+			{
+				"Name": "Docker.DotNet",
+				"Version": "3.125.2"
+			},
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.2.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.1"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "EventsSender.Logging.csproj",
+		"References": [
+			{
+				"Name": "log4net",
+				"Version": "2.0.8"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			}
+		]
+	},
+	{
+		"Name": "EventsSender.MassTransit.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.MassTransit.Serialization",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.Extensions.DependencyInjection",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.Extensions.Logging",
+				"Version": "5.5.5"
+			}
+		]
+	},
+	{
+		"Name": "EventsSender.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.14"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Events.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Installer.CustomAction.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.LabCore.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.DriverFramework.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.LabCore.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.DriverFramework.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.EventStore.csproj",
+		"References": [
+			{
+				"Name": "EventStore.ClientAPI.NetCore",
+				"Version": "4.1.0.23"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "10.0.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.LabCore.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.MassTransit.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.MassTransit.Serialization",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.Memory.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.RabbitMq.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "10.0.3"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.0.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.DriverFramework.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.4.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.7.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.9.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.LabCore.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.4.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.7.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.9.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.4.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.7.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.9.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.4.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.7.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.9.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.4.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.7.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.9.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.8"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Framework.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.11.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.8"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Hosting.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.DriverFramework.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.MassTransit.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.MongoDb.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.8"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.10.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Messages.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.8"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Services.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.11.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.8"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Binder",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Integration.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.DriverFramework.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.MiddlewareInterface.Services.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.App.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Configuration.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulate.Core.Configuration.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulate.Core.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Domain.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Monitoring.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.App.IntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.App.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulate.Core.Configuration.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulate.Core.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Domain.IntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Domain.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Monitoring.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.Configuration.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.Domain.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.DriverFramework.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.UI.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.Configuration.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.Domain.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.IntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.Sender.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorLMW.UI.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.SimpleInjector",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.MassTransit.Serialization",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.4"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "0.7.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.Domain.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "0.7.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "0.7.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.DeviceManager.Contracts",
+				"Version": "0.8.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.UI.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.Broker.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.0.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Configuration",
+				"Version": "0.2.3"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.Common.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.Components.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.MessageFactories.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "1.0.0.7328"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.TopologyContracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.5.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.ComponentModel.TypeConverter",
+				"Version": "4.3.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.5.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.ComponentModel.TypeConverter",
+				"Version": "4.3.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.5.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.ComponentModel.TypeConverter",
+				"Version": "4.3.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.ManagedDevice.UI.UITests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.5.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.ComponentModel.TypeConverter",
+				"Version": "4.3.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.5.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.ComponentModel.TypeConverter",
+				"Version": "4.3.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj",
+		"References": [
+			{
+				"Name": "Castle.Core",
+				"Version": "4.0.0"
+			},
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.5.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.7.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.ComponentModel.TypeConverter",
+				"Version": "4.3.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Application.csproj",
+		"References": [
+			{
+				"Name": "log4net",
+				"Version": "2.0.8"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Bootstrapper",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit.Extensions.SimpleInjector",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Configuration",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Converters",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging.Extensions.SimpleInjector",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Domain.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging.Extensions.SimpleInjector",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Services.csproj",
+		"References": [
+			{
+				"Name": "AutoMapper",
+				"Version": "6.1.1"
+			},
+			{
+				"Name": "log4net",
+				"Version": "2.0.8"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Extensions.SimpleInjector",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "1.0.0.7730"
+			},
+			{
+				"Name": "Roche.TALL.TMS.MiddlewareInterface.Contracts",
+				"Version": "1.0.0.9493"
+			},
+			{
+				"Name": "Roche.TALL.TMS.TransportManager.Contracts",
+				"Version": "1.0.0.10161"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.MiddlewareInterface.Contracts",
+				"Version": "1.0.0.9493"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Performance.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.0.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Configuration",
+				"Version": "1.0.10"
+			},
+			{
+				"Name": "Roche.TALL.TMS.TransportManager.Contracts",
+				"Version": "1.0.0.10161"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.0.12"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.Tests.Tools.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "1.0.0.7730"
+			},
+			{
+				"Name": "Roche.TALL.TMS.MiddlewareInterface.Contracts",
+				"Version": "1.0.0.9493"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Mise",
+				"Version": "1.0.0.9503"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Mise.EventStore",
+				"Version": "1.0.0.9503"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Mise.MassTransit",
+				"Version": "1.0.0.9503"
+			},
+			{
+				"Name": "Roche.TALL.TMS.TransportManager.Contracts",
+				"Version": "1.0.0.10161"
+			},
+			{
+				"Name": "SpecFlow",
+				"Version": "2.1.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Sorting.UnitIntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "CanvasPoC.csproj",
+		"References": []
+	},
+	{
+		"Name": "Spike.EfCoreMySql.Console.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.EntityFrameworkCore",
+				"Version": "2.2.2"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.10"
+			},
+			{
+				"Name": "MySql.Data.EntityFrameworkCore",
+				"Version": "8.0.15"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "Spike.EfCoreMySql.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.EntityFrameworkCore",
+				"Version": "2.2.2"
+			},
+			{
+				"Name": "Microsoft.EntityFrameworkCore.Tools",
+				"Version": "2.2.2"
+			},
+			{
+				"Name": "MySql.Data.EntityFrameworkCore",
+				"Version": "8.0.15"
+			}
+		]
+	},
+	{
+		"Name": "Spike.EfCoreMySql.Models.csproj",
+		"References": []
+	},
+	{
+		"Name": "Spike.EfCoreMySql.Services.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.EntityFrameworkCore",
+				"Version": "2.2.2"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			}
+		]
+	},
+	{
+		"Name": "LogsForSimulation.csproj",
+		"References": [
+			{
+				"Name": "Elasticsearch.Net",
+				"Version": "7.5.1"
+			},
+			{
+				"Name": "GreenPipes",
+				"Version": "2.1.2"
+			},
+			{
+				"Name": "NEST",
+				"Version": "7.5.1"
+			},
+			{
+				"Name": "NEST.JsonNetSerializer",
+				"Version": "7.5.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.5.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.Business.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.Concept.UI.Application.csproj",
+		"References": [
+			{
+				"Name": "Roche.LabCore.Bootstrapping",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Bootstrapping.Configuration",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Bootstrapping.Unity",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.Module",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.MessageDefinitions.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.6.1"
+			},
+			{
+				"Name": "Google.Protobuf.Tools",
+				"Version": "3.6.1"
+			},
+			{
+				"Name": "Grpc.Tools",
+				"Version": "1.19.0"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.Protobuf",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.ProtoFiles",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.Messaging.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.6.1"
+			},
+			{
+				"Name": "Google.Protobuf.Tools",
+				"Version": "3.6.1"
+			},
+			{
+				"Name": "Grpc.Tools",
+				"Version": "1.19.0"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.Module.csproj",
+		"References": [
+			{
+				"Name": "Roche.LabCore.Bootstrapping",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Bootstrapping.Configuration",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.Protobuf",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.RabbitMQ",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.NetCore.Application.csproj",
+		"References": [
+			{
+				"Name": "Roche.LabCore.Bootstrapping.Configuration",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Bootstrapping.Unity",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.Module",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.UI.Messaging.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.6.1"
+			},
+			{
+				"Name": "Google.Protobuf.Tools",
+				"Version": "3.6.1"
+			},
+			{
+				"Name": "Grpc.Tools",
+				"Version": "1.19.0"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.Protobuf",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging.ProtoFiles",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.UI.Module.csproj",
+		"References": [
+			{
+				"Name": "Roche.LabCore.Bootstrapping.Configuration",
+				"Version": "2.0.0.1299"
+			},
+			{
+				"Name": "Roche.LabCore.Messaging",
+				"Version": "2.0.0.1299"
+			}
+		]
+	},
+	{
+		"Name": "Roche.Concept.UI.UserInterface.csproj",
+		"References": []
+	},
+	{
+		"Name": "ClientApplication.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.3-dev008"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.3-dev005"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.3.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "CrossCuttingLibrary.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.BusContracts.csproj",
+		"References": [
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "12.0.1"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.Write.Domain.csproj",
+		"References": []
+	},
+	{
+		"Name": "ServiceA.Write.Domain.Events.csproj",
+		"References": [
+			{
+				"Name": "MediatR",
+				"Version": "6.0.0"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.Read.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.Read.Domain.csproj",
+		"References": []
+	},
+	{
+		"Name": "ServiceA.Services.Events.csproj",
+		"References": []
+	},
+	{
+		"Name": "ServiceA.Services.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.3-dev008"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.3.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.Write.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceA.Application.csproj",
+		"References": [
+			{
+				"Name": "MediatR",
+				"Version": "6.0.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.3-dev008"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.3-dev005"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.6"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.3.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceB.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.8.0"
+			}
+		]
+	},
+	{
+		"Name": "ServiceB.Domain.csproj",
+		"References": [
+			{
+				"Name": "MediatR",
+				"Version": "6.0.0"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "12.0.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceB.Application.csproj",
+		"References": [
+			{
+				"Name": "MassTransit.Extensions.DependencyInjection",
+				"Version": "5.3.2"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Json",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Configuration",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Console",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.3-dev008"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.3-dev005"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "SeviceB.Services.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.3-dev008"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.3.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			}
+		]
+	},
+	{
+		"Name": "ServiceB.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.2"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.5.1"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.Contracts.csproj",
+		"References": [
+			{
+				"Name": "GreenPipes",
+				"Version": "2.1.4"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.1"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.Repository.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.1"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "12.0.2"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.ServiceA.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.Extensions.DependencyInjection",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.SerilogIntegration",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Console",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "Serilog",
+				"Version": "2.9.0"
+			},
+			{
+				"Name": "Serilog.Enrichers.MassTransit",
+				"Version": "1.1.0"
+			},
+			{
+				"Name": "Serilog.Enrichers.Thread",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Serilog.Extensions.Hosting",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "Serilog.Extensions.Logging",
+				"Version": "3.0.1"
+			},
+			{
+				"Name": "Serilog.Sinks.Console",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Serilog.Sinks.File",
+				"Version": "4.1.0"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.ServiceB.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.Extensions.DependencyInjection",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Console",
+				"Version": "3.0.0"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.Services.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.1"
+			}
+		]
+	},
+	{
+		"Name": "OutBoxMongoDb.Starter.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Application.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Application.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Simulations.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorSysLog.ConsoleApp.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorSysLog.Core.csproj",
+		"References": [
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.0.12"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorSysLog.PowerShell.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.SimulatorSysLog.Tests.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.Spikes.StartupAll.Application.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+				"Version": "2.2.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Bootstrapper",
+				"Version": "0.1.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "0.1.13"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.DeviceManager.Contracts",
+				"Version": "0.2.9"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "UDPServer.csproj",
+		"References": []
+	},
+	{
+		"Name": "WakeOnLan.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Framework.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Hosting.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.2"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.1.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Polly",
+				"Version": "7.1.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Logging.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Serilog",
+				"Version": "2.9.0"
+			},
+			{
+				"Name": "Serilog.Enrichers.Thread",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Serilog.Sinks.Console",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Serilog.Sinks.File",
+				"Version": "4.1.0"
+			},
+			{
+				"Name": "Serilog.Sinks.SyslogMessages",
+				"Version": "1.0.5"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.MassTransit.csproj",
+		"References": [
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.Extensions.DependencyInjection",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.RabbitMQ",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "MassTransit.SerilogIntegration",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.MassTransit.Serialization",
+				"Version": "0.1.2"
+			},
+			{
+				"Name": "Serilog.Enrichers.MassTransit",
+				"Version": "1.1.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.MongoDb.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.RabbitMq.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "RabbitMQ.Client",
+				"Version": "5.1.2"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.ApplicationServices.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.4"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.4"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.4"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Queries.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.5.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Domain.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.DependencyInjection",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Api.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Json",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting.Systemd",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting.WindowsServices",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Serilog.AspNetCore",
+				"Version": "3.2.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Json",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting.Systemd",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Hosting.WindowsServices",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Serilog.Extensions.Hosting",
+				"Version": "3.0.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Framework.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "coverlet.collector",
+				"Version": "1.0.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Json",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Mongo2Go",
+				"Version": "2.2.12"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Services.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.9.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.3.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.DiagnosticAdapter",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.2"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Console",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.AspNetCore.Mvc.Testing",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "Roche.TestDocGen.Converter.Attributes",
+				"Version": "1.0.1.35"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Integration.Framework.csproj",
+		"References": [
+			{
+				"Name": "Docker.DotNet",
+				"Version": "3.125.2"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+		"References": [
+			{
+				"Name": "Docker.DotNet",
+				"Version": "3.125.2"
+			},
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "MassTransit",
+				"Version": "5.5.5"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Abstractions",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging.Console",
+				"Version": "3.1.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "MongoDB.Driver",
+				"Version": "2.9.2"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "Roche.TestDocGen.Converter.Attributes",
+				"Version": "1.0.1.35"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.Extensions.Configuration",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Binder",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.Extensions.Configuration.Json",
+				"Version": "3.1.1"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.7.0"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.0"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.0"
+			},
+			{
+				"Name": "coverlet.collector",
+				"Version": "1.0.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.13.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.TransportManager.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.10.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.9.6"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "16.4.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.1.118"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.4.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.4.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Application.ClientStimulator.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Application.BackendStimulator.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Application.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Contracts.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.DataAccess.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Domain.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Services.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.UI.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.UIApplication.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.DataAccess.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Domain.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Services.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.UnitIntegrationTests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.UI.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.DevIntegration.Tests.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.Tests.Tools.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UserInterface.UI.AutomatedTest.WinAppDriver.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.Application.csproj",
+		"References": [
+			{
+				"Name": "Roche.TALL.TMS.Common.Bootstrapper",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Microsoft.AspNetCore",
+				"Version": "2.1.4"
+			},
+			{
+				"Name": "Microsoft.AspNetCore.Mvc",
+				"Version": "2.1.3"
+			},
+			{
+				"Name": "Microsoft.AspNetCore.Hosting.WindowsServices",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+				"Version": "0.4.12"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector",
+				"Version": "0.3.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.IO",
+				"Version": "0.1.12"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Logging",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "SimpleInjector.Integration.AspNetCore.Mvc",
+				"Version": "4.0.12"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.Contracts.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.BusinessLogic.csproj",
+		"References": [
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+				"Version": "0.6.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.Services.csproj",
+		"References": [
+			{
+				"Name": "Google.Protobuf",
+				"Version": "3.10.1"
+			},
+			{
+				"Name": "log4net",
+				"Version": "2.0.8"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis",
+				"Version": "2.8.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Newtonsoft.Json",
+				"Version": "12.0.2"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Backup.Contracts",
+				"Version": "0.1.11"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ComitAdapters.Contracts",
+				"Version": "0.3.8"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.MassTransit",
+				"Version": "0.5.23"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Broker.RabbitMQ",
+				"Version": "0.2.14"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore",
+				"Version": "0.4.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.Validation",
+				"Version": "0.1.4"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.6.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.DeviceManager.Contracts",
+				"Version": "0.8.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Events",
+				"Version": "1.1.3"
+			},
+			{
+				"Name": "SharpZipLib",
+				"Version": "0.86.0"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "System.Security.Cryptography.Pkcs",
+				"Version": "4.5.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.3.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.3.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.3.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.Extensions.Logging",
+				"Version": "2.2.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+				"Version": "0.4.4"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "SimpleInjector",
+				"Version": "4.4.3"
+			},
+			{
+				"Name": "Roche.TestDocGen.Converter.Attributes",
+				"Version": "1.0.1.35"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.UpdateManager.Services.Tests.csproj",
+		"References": [
+			{
+				"Name": "FluentAssertions",
+				"Version": "5.3.0"
+			},
+			{
+				"Name": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+				"Version": "2.6.0"
+			},
+			{
+				"Name": "Microsoft.NET.Test.Sdk",
+				"Version": "15.6.0"
+			},
+			{
+				"Name": "Moq",
+				"Version": "4.8.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.Contracts",
+				"Version": "0.6.1"
+			},
+			{
+				"Name": "Roche.TALL.TMS.ComitAdapters.Contracts",
+				"Version": "0.3.8"
+			},
+			{
+				"Name": "Roche.TALL.TMS.DeviceManager.Contracts",
+				"Version": "0.8.0"
+			},
+			{
+				"Name": "StyleCop.Analyzers",
+				"Version": "1.0.2"
+			},
+			{
+				"Name": "xunit",
+				"Version": "2.3.1"
+			},
+			{
+				"Name": "xunit.runner.visualstudio",
+				"Version": "2.3.1"
+			}
+		]
+	},
+	{
+		"Name": "Roche.TALL.TMS.AppViews.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Views.csproj",
+		"References": []
+	},
+	{
+		"Name": "Roche.TALL.TMS.Views.Tests.csproj",
+		"References": []
+	}
+]

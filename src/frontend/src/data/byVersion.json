@@ -1,0 +1,2695 @@
+[
+	{
+		"Reference": "Microsoft.CodeAnalysis.FxCopAnalyzers",
+		"Matches": [
+			{
+				"Version": "2.6.0",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Application.csproj",
+					"Roche.TALL.TMS.Backup.Contracts.csproj",
+					"Roche.TALL.TMS.Backup.DataAccess.csproj",
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"Roche.TALL.TMS.Backup.Services.csproj",
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ComitAdapters.Contracts.csproj",
+					"Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.csproj",
+					"Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.EventStore.csproj",
+					"Roche.TALL.TMS.Common.Logging.csproj",
+					"Roche.TALL.TMS.Common.Bootstrapper.csproj",
+					"Roche.TALL.TMS.Common.Configuration.csproj",
+					"Roche.TALL.TMS.Common.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.IO.csproj",
+					"Roche.TALL.TMS.Common.Validation.csproj",
+					"Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.Services.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.ApiContracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.Contracts.csproj",
+					"Roche.TALL.TMS.Events.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.csproj",
+					"Roche.TALL.TMS.Mise.Memory.csproj",
+					"Roche.TALL.TMS.Mise.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.SimulatorLMW.Contracts.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj",
+					"Roche.TALL.TMS.Simulators.Common.csproj",
+					"Roche.TALL.TMS.Simulators.Components.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.csproj",
+					"Roche.TALL.TMS.Simulators.TopologyContracts.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Contracts.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj",
+					"Roche.TALL.TMS.TransportManager.Queries.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Contracts.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.BusinessLogic.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.9.6",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.MongoDb.csproj",
+					"Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.DeviceManager.csproj",
+					"EventsSender.csproj",
+					"Roche.TALL.TMS.TransportManager.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.TransportManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.9.8",
+				"Matches": [
+					"Roche.TALL.TMS.MiddlewareInterface.Contracts.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Framework.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.MongoDb.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Messages.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Logging.Log4Net.AspNetCore",
+		"Matches": [
+			{
+				"Version": "2.2.4",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Application.csproj",
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "2.2.10",
+				"Matches": [
+					"Spike.EfCoreMySql.Console.csproj"
+				]
+			},
+			{
+				"Version": "2.2.6",
+				"Matches": [
+					"ClientApplication.csproj",
+					"CrossCuttingLibrary.csproj",
+					"ServiceA.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Bootstrapper",
+		"Matches": [
+			{
+				"Version": "0.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Application.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.1.4",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "0.4.4",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.4.6",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.2.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "0.4.3-dev005",
+				"Matches": [
+					"ClientApplication.csproj",
+					"ServiceA.Application.csproj",
+					"ServiceB.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.4.2",
+				"Matches": [
+					"ServiceB.csproj"
+				]
+			},
+			{
+				"Version": "0.4.12",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "0.4.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Application.csproj",
+					"Roche.TALL.TMS.Backup.Domain.csproj"
+				]
+			},
+			{
+				"Version": "0.4.3",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj"
+				]
+			},
+			{
+				"Version": "0.2.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.4.4",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.4.1",
+				"Matches": [
+					"ClientApplication.csproj",
+					"ServiceA.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "StyleCop.Analyzers",
+		"Matches": [
+			{
+				"Version": "1.0.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Application.csproj",
+					"Roche.TALL.TMS.Backup.Contracts.csproj",
+					"Roche.TALL.TMS.Backup.DataAccess.csproj",
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"Roche.TALL.TMS.Backup.Services.csproj",
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ComitAdapters.Contracts.csproj",
+					"Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.csproj",
+					"Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.EventStore.csproj",
+					"Roche.TALL.TMS.Common.Logging.csproj",
+					"Roche.TALL.TMS.Common.Bootstrapper.csproj",
+					"Roche.TALL.TMS.Common.Configuration.csproj",
+					"Roche.TALL.TMS.Common.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.IO.csproj",
+					"Roche.TALL.TMS.Common.Validation.csproj",
+					"Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.Services.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.ApiContracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.Events.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.csproj",
+					"Roche.TALL.TMS.Mise.Memory.csproj",
+					"Roche.TALL.TMS.Mise.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.SimulatorLMW.Contracts.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj",
+					"Roche.TALL.TMS.Simulators.Common.csproj",
+					"Roche.TALL.TMS.Simulators.Components.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.csproj",
+					"Roche.TALL.TMS.Simulators.TopologyContracts.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Contracts.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj",
+					"Roche.TALL.TMS.TransportManager.Queries.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Contracts.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.BusinessLogic.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "1.1.118",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.MongoDb.csproj",
+					"Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.DeviceManager.csproj",
+					"EventsSender.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Contracts.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Framework.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.MongoDb.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Messages.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj",
+					"Roche.TALL.TMS.TransportManager.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.TransportManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.CodeAnalysis",
+		"Matches": [
+			{
+				"Version": "2.8.0",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.csproj",
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Contracts.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.BusinessLogic.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.EventStore",
+		"Matches": [
+			{
+				"Version": "0.4.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.csproj"
+				]
+			},
+			{
+				"Version": "0.4.3",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj"
+				]
+			},
+			{
+				"Version": "0.3.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.4.1",
+				"Matches": [
+					"ClientApplication.csproj",
+					"ServiceA.DataAccess.csproj",
+					"ServiceA.Read.DataAccess.csproj",
+					"ServiceA.Write.DataAccess.csproj",
+					"ServiceA.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.4.4",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Newtonsoft.Json",
+		"Matches": [
+			{
+				"Version": "11.0.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj"
+				]
+			},
+			{
+				"Version": "10.0.3",
+				"Matches": [
+					"Roche.TALL.TMS.Common.EventStore.csproj",
+					"Roche.TALL.TMS.Common.Configuration.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.csproj"
+				]
+			},
+			{
+				"Version": "12.0.2",
+				"Matches": [
+					"Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+					"OutBoxMongoDb.Repository.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			},
+			{
+				"Version": "12.0.1",
+				"Matches": [
+					"ServiceA.BusContracts.csproj",
+					"ServiceB.Domain.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Configuration",
+		"Matches": [
+			{
+				"Version": "0.2.1",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Domain.csproj"
+				]
+			},
+			{
+				"Version": "0.2.3",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.IO",
+		"Matches": [
+			{
+				"Version": "0.1.7",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Domain.csproj"
+				]
+			},
+			{
+				"Version": "0.1.12",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.1.6",
+				"Matches": [
+					"ClientApplication.csproj",
+					"ServiceA.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Validation",
+		"Matches": [
+			{
+				"Version": "0.1.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"CrossCuttingLibrary.csproj",
+					"ServiceB.Domain.csproj"
+				]
+			},
+			{
+				"Version": "0.1.4",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj",
+					"Roche.TALL.TMS.Simulators.Common.csproj",
+					"Roche.TALL.TMS.Simulators.Components.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.BusinessLogic.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Domain.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.SystemControl.Contracts",
+		"Matches": [
+			{
+				"Version": "0.1.5",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Domain.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "System.Security.Cryptography.Pkcs",
+		"Matches": [
+			{
+				"Version": "4.5.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Domain.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.ComitAdapters.Contracts",
+		"Matches": [
+			{
+				"Version": "0.1.7",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.3.6",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.3.8",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Broker.MassTransit",
+		"Matches": [
+			{
+				"Version": "0.5.4",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.5.19",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "0.5.3-dev008",
+				"Matches": [
+					"ClientApplication.csproj",
+					"ServiceA.Services.csproj",
+					"ServiceA.Application.csproj",
+					"ServiceB.Application.csproj",
+					"SeviceB.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.5.23",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "FluentAssertions",
+		"Matches": [
+			{
+				"Version": "5.0.0",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "5.3.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "5.10.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Framework.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Tests.csproj"
+				]
+			},
+			{
+				"Version": "5.4.1",
+				"Matches": [
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj"
+				]
+			},
+			{
+				"Version": "5.9.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.NET.Test.Sdk",
+		"Matches": [
+			{
+				"Version": "15.6.0",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.SimulatorSysLog.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "16.2.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			},
+			{
+				"Version": "15.7.0",
+				"Matches": [
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj"
+				]
+			},
+			{
+				"Version": "15.5.0",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj"
+				]
+			},
+			{
+				"Version": "16.4.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Framework.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Tests.csproj"
+				]
+			},
+			{
+				"Version": "16.3.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Moq",
+		"Matches": [
+			{
+				"Version": "4.8.2",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.13.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.9.0",
+				"Matches": [
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.8.1",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.7.1",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.13.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "xunit",
+		"Matches": [
+			{
+				"Version": "2.3.1",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.SimulatorSysLog.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.4.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.4.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Framework.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "xunit.runner.visualstudio",
+		"Matches": [
+			{
+				"Version": "2.3.1",
+				"Matches": [
+					"Roche.TALL.TMS.Backup.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Backup.Services.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.Tests.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.Tests.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Memory.Tests.csproj",
+					"Roche.TALL.TMS.Mise.Tests.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.SimulatorSysLog.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.4.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.4.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Framework.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Services.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MassTransit.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "5.3.2",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.Masstransit.Extensions.SimpleInjector.csproj"
+				]
+			},
+			{
+				"Version": "5.5.5",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Google.Protobuf",
+		"Matches": [
+			{
+				"Version": "3.10.1",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.csproj",
+					"Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+					"Roche.TALL.TMS.LabLayoutConfig.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.Events.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj",
+					"Roche.TALL.TMS.Simulators.Common.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			},
+			{
+				"Version": "3.5.1",
+				"Matches": [
+					"Roche.TALL.TMS.LabLayoutConfig.Contracts.csproj",
+					"Roche.TALL.TMS.Contracts.csproj"
+				]
+			},
+			{
+				"Version": "3.11.2",
+				"Matches": [
+					"Roche.TALL.TMS.MiddlewareInterface.Framework.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj"
+				]
+			},
+			{
+				"Version": "3.6.1",
+				"Matches": [
+					"Roche.Concept.MessageDefinitions.csproj",
+					"Roche.Concept.Messaging.csproj",
+					"Roche.Concept.UI.Messaging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MassTransit",
+		"Matches": [
+			{
+				"Version": "5.5.5",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+					"Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+					"EventsSender.MassTransit.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"OutBoxMongoDb.ServiceB.csproj",
+					"OutBoxMongoDb.Services.csproj",
+					"OutBoxMongoDb.Starter.csproj",
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MassTransit.RabbitMQ",
+		"Matches": [
+			{
+				"Version": "5.5.5",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+					"Roche.TALL.TMS.Common.MassTransit.Serialization.csproj",
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"OutBoxMongoDb.ServiceB.csproj",
+					"OutBoxMongoDb.Starter.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Logging",
+		"Matches": [
+			{
+				"Version": "2.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.MassTransit.csproj",
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.csproj",
+					"Roche.TALL.TMS.Common.EventStore.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.EventStore.csproj",
+					"Roche.TALL.TMS.Common.Logging.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.csproj",
+					"CrossCuttingLibrary.csproj",
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.MongoDb.csproj",
+					"Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.DeviceManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.DeviceManager.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.MongoDb.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj"
+				]
+			},
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"EventsSender.Logging.csproj",
+					"EventsSender.MassTransit.csproj",
+					"Spike.EfCoreMySql.Console.csproj",
+					"Spike.EfCoreMySql.Services.csproj",
+					"ServiceB.Application.csproj",
+					"OutBoxMongoDb.Services.csproj",
+					"Roche.TALL.TMS.TransportManager.Queries.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "SimpleInjector",
+		"Matches": [
+			{
+				"Version": "4.4.3",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Common.Extensions.SimpleInjector.csproj",
+					"Roche.TALL.TMS.Mise.csproj",
+					"Spike.EfCoreMySql.Console.csproj",
+					"ClientApplication.csproj",
+					"CrossCuttingLibrary.csproj",
+					"ServiceA.DataAccess.csproj",
+					"ServiceA.Read.DataAccess.csproj",
+					"ServiceA.Services.csproj",
+					"ServiceA.Write.DataAccess.csproj",
+					"ServiceA.Application.csproj",
+					"ServiceB.Domain.csproj",
+					"ServiceB.Application.csproj",
+					"SeviceB.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.DataAccess.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.0.12",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.SimulatorSysLog.Core.csproj"
+				]
+			},
+			{
+				"Version": "4.8.1",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj",
+					"Roche.TALL.TMS.Simulators.Components.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "4.5.1",
+				"Matches": [
+					"LogsForSimulation.csproj",
+					"ServiceB.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "RabbitMQ.Client",
+		"Matches": [
+			{
+				"Version": "5.0.1",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Broker.RabbitMQ.csproj",
+					"Roche.TALL.TMS.Mise.RabbitMq.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.csproj"
+				]
+			},
+			{
+				"Version": "5.1.2",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "EventStore.ClientAPI.NetCore",
+		"Matches": [
+			{
+				"Version": "4.1.0.23",
+				"Matches": [
+					"Roche.TALL.TMS.Common.EventStore.csproj",
+					"Roche.TALL.TMS.Mise.EventStore.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "log4net",
+		"Matches": [
+			{
+				"Version": "2.0.8",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Logging.csproj",
+					"EventsSender.Logging.csproj",
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.CodeQuality.Analyzers",
+		"Matches": [
+			{
+				"Version": "2.6.3",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Logging.Abstractions",
+		"Matches": [
+			{
+				"Version": "2.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Logging.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.NetCore.Analyzers",
+		"Matches": [
+			{
+				"Version": "2.6.3",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Text.Analyzers",
+		"Matches": [
+			{
+				"Version": "2.6.3",
+				"Matches": [
+					"Roche.TALL.TMS.Common.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "NJsonSchema",
+		"Matches": [
+			{
+				"Version": "9.13.36",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.EntityFrameworkCore.Design",
+		"Matches": [
+			{
+				"Version": "2.1.2",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.MigrationStartup.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.EntityFrameworkCore",
+		"Matches": [
+			{
+				"Version": "2.1.2",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.csproj"
+				]
+			},
+			{
+				"Version": "2.2.2",
+				"Matches": [
+					"Spike.EfCoreMySql.Console.csproj",
+					"Spike.EfCoreMySql.DataAccess.csproj",
+					"Spike.EfCoreMySql.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.EntityFrameworkCore.Sqlite",
+		"Matches": [
+			{
+				"Version": "2.1.2",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.DataAccess.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.CSharp",
+		"Matches": [
+			{
+				"Version": "4.5.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MyToolkit",
+		"Matches": [
+			{
+				"Version": "2.5.16",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Newtonsoft.Json.Schema",
+		"Matches": [
+			{
+				"Version": "3.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.BusinessLogic.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Unity",
+		"Matches": [
+			{
+				"Version": "4.0.1",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.BusinessLogic.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "AutoMapper",
+		"Matches": [
+			{
+				"Version": "6.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.Services.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.ConfigurationManager.ApiContracts",
+		"Matches": [
+			{
+				"Version": "0.8.0.42754",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.UI.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.AspNetCore",
+		"Matches": [
+			{
+				"Version": "2.1.4",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.AspNetCore.Hosting.WindowsServices",
+		"Matches": [
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.AspNetCore.Mvc",
+		"Matches": [
+			{
+				"Version": "2.1.3",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Logging",
+		"Matches": [
+			{
+				"Version": "0.1.4",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.1.2",
+				"Matches": [
+					"LogsForSimulation.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Events",
+		"Matches": [
+			{
+				"Version": "1.1.11",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj"
+				]
+			},
+			{
+				"Version": "1.1.14",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.ApplicationServices.csproj",
+					"EventsSender.csproj"
+				]
+			},
+			{
+				"Version": "1.1.8",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.AntiCorruptionLayer.csproj"
+				]
+			},
+			{
+				"Version": "1.1.6",
+				"Matches": [
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj"
+				]
+			},
+			{
+				"Version": "1.1.4",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.TransportManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj"
+				]
+			},
+			{
+				"Version": "1.1.3",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog",
+		"Matches": [
+			{
+				"Version": "2.9.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.AspNetCore",
+		"Matches": [
+			{
+				"Version": "3.2.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Enrichers.Thread",
+		"Matches": [
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Sinks.Console",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Sinks.File",
+		"Matches": [
+			{
+				"Version": "4.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj",
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Sinks.SyslogServer",
+		"Matches": [
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "SimpleInjector.Integration.AspNetCore.Mvc",
+		"Matches": [
+			{
+				"Version": "4.4.3",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Application.csproj"
+				]
+			},
+			{
+				"Version": "4.0.12",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Contracts",
+		"Matches": [
+			{
+				"Version": "0.7.0",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.Contracts.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.Services.csproj",
+					"Roche.TALL.TMS.DeviceManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.Simulators.Components.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			},
+			{
+				"Version": "0.6.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.AntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "1.0.0.7328",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.MessageFactories.csproj"
+				]
+			},
+			{
+				"Version": "0.3.0",
+				"Matches": [
+					"ClientApplication.csproj",
+					"ServiceA.Services.csproj",
+					"ServiceA.Application.csproj",
+					"SeviceB.Services.csproj"
+				]
+			},
+			{
+				"Version": "0.2.0",
+				"Matches": [
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.5.1",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Queries.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Extensions.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "0.1.4",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.csproj",
+					"Roche.TALL.TMS.ConfigurationManager.DataAccess.Tests.csproj"
+				]
+			},
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TestDocGen.Converter.Attributes",
+		"Matches": [
+			{
+				"Version": "1.0.1.35",
+				"Matches": [
+					"Roche.TALL.TMS.ConfigurationManager.DevIntegration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.UpdateManager.DevIntegration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Google.Protobuf.Tools",
+		"Matches": [
+			{
+				"Version": "3.5.1",
+				"Matches": [
+					"Roche.TALL.TMS.Contracts.csproj"
+				]
+			},
+			{
+				"Version": "3.6.1",
+				"Matches": [
+					"Roche.Concept.MessageDefinitions.csproj",
+					"Roche.Concept.Messaging.csproj",
+					"Roche.Concept.UI.Messaging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MongoDB.Driver",
+		"Matches": [
+			{
+				"Version": "2.9.2",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.MongoDb.csproj",
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.10.1",
+				"Matches": [
+					"Roche.TALL.TMS.MiddlewareInterface.MongoDb.csproj"
+				]
+			},
+			{
+				"Version": "2.8.0",
+				"Matches": [
+					"ServiceB.DataAccess.csproj"
+				]
+			},
+			{
+				"Version": "2.9.1",
+				"Matches": [
+					"OutBoxMongoDb.DataAccess.csproj",
+					"OutBoxMongoDb.Repository.csproj",
+					"OutBoxMongoDb.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Hosting",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.DeviceManager.csproj"
+				]
+			},
+			{
+				"Version": "3.0.0",
+				"Matches": [
+					"EventsSender.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"OutBoxMongoDb.ServiceB.csproj"
+				]
+			},
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"ServiceB.Application.csproj",
+					"ServiceB.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Polly",
+		"Matches": [
+			{
+				"Version": "7.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Hosting.csproj",
+					"Roche.TALL.TMS.TransportManager.Hosting.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Sinks.SyslogMessages",
+		"Matches": [
+			{
+				"Version": "1.0.5",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Logging.csproj",
+					"Roche.TALL.TMS.TransportManager.Logging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MassTransit.Extensions.DependencyInjection",
+		"Matches": [
+			{
+				"Version": "5.5.5",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"EventsSender.MassTransit.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"OutBoxMongoDb.ServiceB.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj"
+				]
+			},
+			{
+				"Version": "5.3.2",
+				"Matches": [
+					"ServiceB.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MassTransit.SerilogIntegration",
+		"Matches": [
+			{
+				"Version": "5.5.5",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MediatR",
+		"Matches": [
+			{
+				"Version": "8.0.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.DeviceManager.Domain.csproj"
+				]
+			},
+			{
+				"Version": "6.0.0",
+				"Matches": [
+					"ServiceA.Write.Domain.Events.csproj",
+					"ServiceA.Application.csproj",
+					"ServiceB.Domain.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.DependencyInjection",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"Roche.TALL.TMS.DeviceManager.MongoDb.csproj",
+					"Roche.TALL.TMS.DeviceManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.DeviceManager.AntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.MongoDb.csproj",
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj"
+				]
+			},
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"EventsSender.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.Queries.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.csproj",
+					"Roche.TALL.TMS.TransportManager.RabbitMq.csproj",
+					"Roche.TALL.TMS.TransportManager.ApplicationServices.csproj",
+					"Roche.TALL.TMS.TransportManager.InBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.OutBoundAntiCorruptionLayer.csproj",
+					"Roche.TALL.TMS.TransportManager.Domain.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.MassTransit.Serialization",
+		"Matches": [
+			{
+				"Version": "0.1.2",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"EventsSender.MassTransit.csproj",
+					"Roche.TALL.TMS.Mise.MassTransit.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.MassTransit.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Enrichers.MassTransit",
+		"Matches": [
+			{
+				"Version": "1.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.MassTransit.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.MassTransit.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "System.Text.Json",
+		"Matches": [
+			{
+				"Version": "4.7.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.ApplicationServices.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MediatR.Extensions.Microsoft.DependencyInjection",
+		"Matches": [
+			{
+				"Version": "8.0.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Configuration",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Configuration.Json",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			},
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"ServiceB.Application.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj",
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Hosting.Systemd",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Hosting.WindowsServices",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Extensions.Hosting",
+		"Matches": [
+			{
+				"Version": "3.0.0",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.csproj",
+					"OutBoxMongoDb.ServiceA.csproj",
+					"Roche.TALL.TMS.TransportManager.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "coverlet.collector",
+		"Matches": [
+			{
+				"Version": "1.0.1",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Domain.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Framework.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Docker.DotNet",
+		"Matches": [
+			{
+				"Version": "3.125.2",
+				"Matches": [
+					"Roche.TALL.TMS.DeviceManager.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Framework.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MassTransit.Extensions.Logging",
+		"Matches": [
+			{
+				"Version": "5.5.5",
+				"Matches": [
+					"EventsSender.MassTransit.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Configuration.Binder",
+		"Matches": [
+			{
+				"Version": "3.1.1",
+				"Matches": [
+					"Roche.TALL.TMS.MiddlewareInterface.Services.csproj",
+					"Roche.TALL.TMS.TransportManager.Api.Performance.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.ConfigurationManager.Contracts",
+		"Matches": [
+			{
+				"Version": "0.7.1",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj"
+				]
+			},
+			{
+				"Version": "1.0.0.7730",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			},
+			{
+				"Version": "0.1.13",
+				"Matches": [
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			},
+			{
+				"Version": "0.6.1",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.BusinessLogic.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.DeviceManager.Contracts",
+		"Matches": [
+			{
+				"Version": "0.8.0",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.csproj",
+					"Roche.TALL.TMS.UpdateManager.Services.Tests.csproj"
+				]
+			},
+			{
+				"Version": "0.2.9",
+				"Matches": [
+					"Roche.TALL.TMS.Spikes.StartupAll.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "System.ComponentModel.TypeConverter",
+		"Matches": [
+			{
+				"Version": "4.3.0",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.ManagedDevice.DataAccess.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.ManagedDevice.Services.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Broker.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.Common.Tests.csproj",
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Castle.Core",
+		"Matches": [
+			{
+				"Version": "4.0.0",
+				"Matches": [
+					"Roche.TALL.TMS.Simulators.MessageFactories.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Broker.MassTransit.Extensions.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Converters",
+		"Matches": [
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Logging.Extensions.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "1.0.10",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Application.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.MiddlewareInterface.Contracts",
+		"Matches": [
+			{
+				"Version": "1.0.0.9493",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.Sorting.Domain.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.TransportManager.Contracts",
+		"Matches": [
+			{
+				"Version": "1.0.0.10161",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Services.csproj",
+					"Roche.TALL.TMS.Sorting.Services.Tests.csproj",
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Mise",
+		"Matches": [
+			{
+				"Version": "1.0.0.9503",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Mise.EventStore",
+		"Matches": [
+			{
+				"Version": "1.0.0.9503",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Mise.MassTransit",
+		"Matches": [
+			{
+				"Version": "1.0.0.9503",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "SpecFlow",
+		"Matches": [
+			{
+				"Version": "2.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.Sorting.Tests.Tools.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "MySql.Data.EntityFrameworkCore",
+		"Matches": [
+			{
+				"Version": "8.0.15",
+				"Matches": [
+					"Spike.EfCoreMySql.Console.csproj",
+					"Spike.EfCoreMySql.DataAccess.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.EntityFrameworkCore.Tools",
+		"Matches": [
+			{
+				"Version": "2.2.2",
+				"Matches": [
+					"Spike.EfCoreMySql.DataAccess.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Elasticsearch.Net",
+		"Matches": [
+			{
+				"Version": "7.5.1",
+				"Matches": [
+					"LogsForSimulation.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "GreenPipes",
+		"Matches": [
+			{
+				"Version": "2.1.2",
+				"Matches": [
+					"LogsForSimulation.csproj"
+				]
+			},
+			{
+				"Version": "2.1.4",
+				"Matches": [
+					"OutBoxMongoDb.Contracts.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "NEST",
+		"Matches": [
+			{
+				"Version": "7.5.1",
+				"Matches": [
+					"LogsForSimulation.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "NEST.JsonNetSerializer",
+		"Matches": [
+			{
+				"Version": "7.5.1",
+				"Matches": [
+					"LogsForSimulation.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Bootstrapping",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.UI.Application.csproj",
+					"Roche.Concept.Module.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Bootstrapping.Configuration",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.UI.Application.csproj",
+					"Roche.Concept.Module.csproj",
+					"Roche.Concept.NetCore.Application.csproj",
+					"Roche.Concept.UI.Module.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Bootstrapping.Unity",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.UI.Application.csproj",
+					"Roche.Concept.NetCore.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Messaging.Module",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.UI.Application.csproj",
+					"Roche.Concept.NetCore.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Grpc.Tools",
+		"Matches": [
+			{
+				"Version": "1.19.0",
+				"Matches": [
+					"Roche.Concept.MessageDefinitions.csproj",
+					"Roche.Concept.Messaging.csproj",
+					"Roche.Concept.UI.Messaging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Messaging.Protobuf",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.MessageDefinitions.csproj",
+					"Roche.Concept.Module.csproj",
+					"Roche.Concept.UI.Messaging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Messaging.ProtoFiles",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.MessageDefinitions.csproj",
+					"Roche.Concept.UI.Messaging.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Messaging",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.Messaging.csproj",
+					"Roche.Concept.UI.Messaging.csproj",
+					"Roche.Concept.UI.Module.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.LabCore.Messaging.RabbitMQ",
+		"Matches": [
+			{
+				"Version": "2.0.0.1299",
+				"Matches": [
+					"Roche.Concept.Module.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Logging.Configuration",
+		"Matches": [
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"ServiceB.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.Logging.Console",
+		"Matches": [
+			{
+				"Version": "2.2.0",
+				"Matches": [
+					"ServiceB.Application.csproj"
+				]
+			},
+			{
+				"Version": "3.0.0",
+				"Matches": [
+					"OutBoxMongoDb.ServiceA.csproj",
+					"OutBoxMongoDb.ServiceB.csproj"
+				]
+			},
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj",
+					"Roche.TALL.TMS.TransportManager.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.DependencyInjection.Abstractions",
+		"Matches": [
+			{
+				"Version": "3.0.0",
+				"Matches": [
+					"OutBoxMongoDb.DataAccess.csproj",
+					"OutBoxMongoDb.Repository.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Serilog.Extensions.Logging",
+		"Matches": [
+			{
+				"Version": "3.0.1",
+				"Matches": [
+					"OutBoxMongoDb.ServiceA.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Mongo2Go",
+		"Matches": [
+			{
+				"Version": "2.2.12",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.MongoDb.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.Extensions.DiagnosticAdapter",
+		"Matches": [
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Microsoft.AspNetCore.Mvc.Testing",
+		"Matches": [
+			{
+				"Version": "3.1.0",
+				"Matches": [
+					"Roche.TALL.TMS.TransportManager.Api.Integration.Tests.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Broker.RabbitMQ.Extensions.SimpleInjector",
+		"Matches": [
+			{
+				"Version": "0.3.2",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Application.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Backup.Contracts",
+		"Matches": [
+			{
+				"Version": "0.1.11",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "Roche.TALL.TMS.Common.Broker.RabbitMQ",
+		"Matches": [
+			{
+				"Version": "0.2.14",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	},
+	{
+		"Reference": "SharpZipLib",
+		"Matches": [
+			{
+				"Version": "0.86.0",
+				"Matches": [
+					"Roche.TALL.TMS.UpdateManager.Services.csproj"
+				]
+			}
+		]
+	}
+]
