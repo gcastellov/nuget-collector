@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
-    <h1>Stats</h1>
-    <ul class="list-group">
+  <div>
+    <ul class="list-group stats">
       <li class="list-group-item d-flex justify-content-between align-items-center">
         <span>Number of projects</span>
         <span class="badge badge-primary badge-pill">{{data.projectsCount}}</span>
@@ -23,6 +22,12 @@
 </template>
 
 <style lang="scss">
+  .stats {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 </style>
 
 <script lang="ts">

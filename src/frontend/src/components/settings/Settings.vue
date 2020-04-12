@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>Settings</h1>
     <button class="btn btn-primary" @click="sync()">Sync repositories</button>
     <p class="status">{{status}}</p>
     <table class="table">
