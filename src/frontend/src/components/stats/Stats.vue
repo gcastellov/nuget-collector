@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <ul class="list-group stats">
+  <div class="stats">
+    <ul class="list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
         <span>Number of projects</span>
         <span class="badge badge-primary badge-pill">{{data.projectsCount}}</span>
