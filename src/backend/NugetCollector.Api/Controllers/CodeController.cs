@@ -46,14 +46,13 @@ namespace NugetCollector.Api.Controllers
             _hubSender.SendMessage("Synchronizing all repositories");
 
             var executingTasks = new List<Task>();
-            var taskFactory = new TaskFactory(TaskCreationOptions.LongRunning, TaskContinuationOptions.ExecuteSynchronously);
-
             foreach (var codeRepository in _options.Repositories)
             {
-                var task = UpdateRepository(codeRepository, taskFactory);
+                var task = UpdateRepository(codeRepository);
                 executingTasks.Add(task);
             }
 
+            var taskFactory = new TaskFactory(TaskCreationOptions.LongRunning, TaskContinuationOptions.None);
             taskFactory.ContinueWhenAll(executingTasks.ToArray(), tasks => AnalyzeProjects());
             return new HttpResponseMessage(HttpStatusCode.Accepted);
         }
@@ -72,69 +71,52 @@ namespace NugetCollector.Api.Controllers
             _hubSender.SendMessage("Done!");
         }
 
-        private Task UpdateRepository(CodeRepository codeRepository, TaskFactory taskFactory)
+        private async Task UpdateRepository(CodeRepository codeRepository)
         {
-            Action action;
-            Action<Task> completedAction;
             var path = GetLocalPath(codeRepository);
 
             if (Directory.Exists(path))
             {
-                action = async () =>
-                {
-                    await _hubSender.SendStatus(codeRepository.Name, "Pulling repository");
-                    PullRepository(path);
-                };
-
-                completedAction = async (t) =>
-                {
-                    if (t.IsCompleted)
-                    {
-                        if (t.IsFaulted)
-                        {
-                            _logger.LogError($"An exception has been thrown pulling {codeRepository.Name}", t.Exception);
-                            await _hubSender.SendStatus(codeRepository.Name, "Repository faulted");
-                        }
-                        else
-                        {
-                            _logger.LogDebug($"{codeRepository.Name} has been pulled into {path}");
-                            await _hubSender.SendStatus(codeRepository.Name, "Repository up to date");
-                        }
-                    }
-                };
+                await Pull(codeRepository, path);
             }
             else
             {
-                action = async () =>
-                {
-                    await _hubSender.SendStatus(codeRepository.Name, "Cloning  repository");
-                    CloneRepository(codeRepository, path);
-                };
-
-                completedAction = async (t) =>
-                {
-                    if (t.IsCompleted)
-                    {
-                        if (t.IsCompleted)
-                        {
-                            if (t.IsFaulted)
-                            {
-                                _logger.LogError($"An exception has been thrown cloning {codeRepository.Name}", t.Exception);
-                                await _hubSender.SendStatus(codeRepository.Name, "Repository faulted");
-                            }
-                            else
-                            {
-                                _logger.LogDebug($"{codeRepository.Name} has been cloned into {path}");
-                                await _hubSender.SendStatus(codeRepository.Name, "Repository up to date");
-                            }
-                        }
-                    }
-                };
+                await Clone(codeRepository, path);
             }
+        }
 
-            var task = taskFactory.StartNew(action);
-            task.ContinueWith(t => completedAction(t));
-            return task;
+        private async Task Clone(CodeRepository codeRepository, string path)
+        {
+            try
+            {
+                await _hubSender.SendStatus(codeRepository.Name, "Cloning  repository");
+                CloneRepository(codeRepository, path);
+
+                _logger.LogDebug($"{codeRepository.Name} has been cloned into {path}");
+                await _hubSender.SendStatus(codeRepository.Name, "Repository up to date");
+            }
+            catch (Exception e)
+            {
+                _logger.LogError($"An exception has been thrown cloning {codeRepository.Name}", e);
+                await _hubSender.SendStatus(codeRepository.Name, "Repository faulted");
+            }
+        }
+
+        private async Task Pull(CodeRepository codeRepository, string path)
+        {
+            try
+            {
+                await _hubSender.SendStatus(codeRepository.Name, "Pulling repository");
+                PullRepository(path);
+
+                _logger.LogDebug($"{codeRepository.Name} has been pulled into {path}");
+                await _hubSender.SendStatus(codeRepository.Name, "Repository up to date");
+            }
+            catch (Exception e)
+            {
+                _logger.LogError($"An exception has been thrown pulling {codeRepository.Name}", e);
+                await _hubSender.SendStatus(codeRepository.Name, "Repository faulted");
+            }
         }
 
         private string GetLocalPath(CodeRepository codeRepository) 
